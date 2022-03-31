@@ -1,2 +1,14 @@
 vessel_ssh_key
 vessel_ssh_key.pub
+node_modules
+package-lock.json
+.env
+.env.test
+dist
+public/bundle.js
+public/bundle.js.map
+.DS_Store
+npm-debug.log
+yarn-error.log
+.envvar.sh
+.eslintrc.js
