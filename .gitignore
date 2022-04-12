@@ -1,5 +1,3 @@
-vessel_ssh_key
-vessel_ssh_key.pub
 node_modules
 package-lock.json
 .env
