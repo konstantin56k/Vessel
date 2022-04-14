@@ -1,0 +1,12 @@
+body {
+  margin: 0px;
+}
+
+.navbar {
+  background-color: #1f143d;
+}
+
+#vessel_nav {
+  height: 200px;
+  width: 200px;
+}
