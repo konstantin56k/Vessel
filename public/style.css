@@ -2,11 +2,32 @@ body {
   margin: 0px;
 }
 
+.navbar_background {
+
+}
+
 .navbar {
+  display: flex;
   background-color: #1f143d;
+  padding: 3% 6% 3% 6%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search_box {
+  
+}
+
+#search_box {
+  height: 30px;
+  border-radius: 30px;
+}
+
+.account {
+  color: white
 }
 
 #vessel_nav {
-  height: 200px;
-  width: 200px;
+  height: 70px;
+  width: 70px;
 }

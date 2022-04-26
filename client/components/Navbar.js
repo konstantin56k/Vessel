@@ -8,8 +8,21 @@ class Navbar extends Component {
 
   render() {
     return (
-      <div className="navbar">
-        <img id='vessel_nav' src='./images/vessel_2.png' alt='image is not found' />
+      <div className="navbar_background">
+        <div className="navbar">
+          <img id='vessel_nav' src='./images/vessel_2.png' alt='image is not found' />
+          <div className="search_box">
+            <form>
+              <input id="search_box" type="text" />
+              <input id="search_box" type="submit" value="Submit" />
+            </form>
+          </div>
+          <div className="account">
+            <h2>
+              Account
+            </h2>
+          </div>
+        </div>
       </div>
     )
   }
