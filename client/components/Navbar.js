@@ -13,8 +13,8 @@ class Navbar extends Component {
           <img id='vessel_nav' src='./images/vessel_2.png' alt='image is not found' />
           <div className="search_box">
             <form>
-              <input id="search_box" type="text" />
-              <input id="search_box" type="submit" value="Submit" />
+              <input id="search_box" type="text" placeholder="Search website" />
+              <input id="search_box" type="submit" value="Search" />
             </form>
           </div>
           <div className="account">
